@@ -1,13 +1,18 @@
 {
   "private": true,
   "scripts": {
-    "dev": "slidev",
-    "build": "slidev build --base /slidev/",
-    "export": "slidev export"
+    "build": "rimraf dist && pnpm -r run build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
-  "dependencies": {
+  "devDependencies": {
     "@slidev/cli": "latest",
     "@slidev/theme-default": "latest",
-    "@slidev/theme-seriph": "latest"
+    "@slidev/theme-seriph": "latest",
+    "@suxiong/eslint-config": "^1.0.0",
+    "eslint": "^8.38.0",
+    "pnpm": "^8.2.0",
+    "rimraf": "^5.0.0",
+    "typescript": "^5.0.4"
   }
 }

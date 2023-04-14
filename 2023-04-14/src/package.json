@@ -1,0 +1,8 @@
+{
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /2023/use-vitepress-to-build-blog/ --out ../../dist/2023/use-vitepress-to-build-blog",
+    "export": "slidev export --per-slide --output ../2023-04-14-use-vitepress-to-build-blog-cn.pdf"
+  }
+}
