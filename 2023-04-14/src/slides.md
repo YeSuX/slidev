@@ -202,6 +202,28 @@ jobs:
 </div>
 
 ---
+
+<div class="text-center">学习资源</div>
+
+## 部署站点
+
+1. [Github](https://github.com/)
+
+2. [vercel](https://vercel.com/)
+
+## 静态站点生成器
+
+1. [Eleventy](https://www.11ty.dev/)
+
+2. [Astro](https://astro.build/)
+
+3. [Gatsby](https://www.gatsbyjs.com/)
+
+4. [Vuepress](https://vuepress.vuejs.org/)
+
+5. ...
+
+---
 layout: center
 ---
 
